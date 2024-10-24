@@ -1,0 +1,73 @@
+.body,
+html {
+
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: rgba(77, 54, 208, 1);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+}
+
+.button svg {
+    margin-right: 8px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.gal {
+    position: absolute;
+    bottom: 500px;
+    right: 20px;
+    text-decoration: none;
+    padding: 12px;
+    background-color: #57aee7;
+    color: #fff;
+    border-radius: 40px;
+    transition: all 100ms ease-out;
+}
+
+.gal:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #57aee7;
+}
+
+.autre {
+    position: absolute;
+    bottom: 500px;
+    left: 20px;
+    text-decoration: none;
+    padding: 12px;
+    background-color: #57aee7;
+    color: #fff;
+    border-radius: 40px;
+    transition: all 100ms ease-out;
+}
+
+.autre:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #57aee7;
+}

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meme {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #57aee7;
+    border-radius: 12px;
+}
+
+.meme img {
+    max-width: 200px;
+    height: auto;
+}
+
+.retour {
+    position: absolute;
+    bottom: 500px;
+    left: 20px;
+    text-decoration: none;
+    padding: 12px;
+    background-color: #57aee7;
+    color: #fff;
+    border-radius: 40px;
+    transition: all 100ms ease-out;
+}
+
+.retour:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #57aee7;
+}
